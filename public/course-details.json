@@ -1,0 +1,76 @@
+[
+    {
+        "id": 2323,
+        "title": "Introduction to C Programming",
+        "course_img": "https://i.ibb.co/56HXRP2/Rectangle-2-2.png",
+        "price": 15000,
+        "course_duration": 8,
+        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+    },
+    {
+        "id": 2335,
+        "title": "Introduction to Algorithms",
+        "course_img": "https://i.ibb.co/hymG5G0/Rectangle-2-3.png",
+        "price": 13000,
+        "course_duration": 6,
+        "short_description": "An introductory journey into fundamental data science concepts. Gain insights into data analysis, visualization, and Python programming in 6 weeks."
+    },
+    {
+        "id": 28429,
+        "title": "Introduction to C++ for DSA",
+        "course_img": "https://i.ibb.co/SQNHB0F/Rectangle-2-4.png",
+        "price": 25000,
+        "course_duration": 10,
+        "short_description": "Unlock your creative potential with our 10-week graphic design masterclass. Develop skills in Adobe Creative Suite and create stunning visuals."
+    },
+    {
+        "id": 792,
+        "title": "Basic Data Structures",
+        "course_img": "https://i.ibb.co/Z2MGNLX/Rectangle-3.png",
+        "price": 18000,
+        "course_duration": 7,
+        "short_description": "Boost your brand's online presence with our 7-week digital marketing course. Master SEO, social media, and email marketing strategies."
+    },
+    {
+        "id": 76249,
+        "title": "Introduction to OOP Python",
+        "course_img": "https://i.ibb.co/SnRmk7p/Rectangle-2.png",
+        "price": 13000,
+        "course_duration": 5,
+        "short_description": "Get started with Python programming in just 5 weeks. Learn Python syntax, data structures, and problem-solving techniques."
+    },
+    {
+        "id": 7324,
+        "title": "Software Engineering",
+        "course_img": "https://i.ibb.co/PYFvWBS/Rectangle-2-5.png",
+        "price": 22000,
+        "course_duration": 9,
+        "short_description": "Master mobile app development in 9 weeks. Build Android and iOS apps using Java, Kotlin, Swift, and more."
+    },
+    {
+        "id": 214789,
+        "title": "AWS, Cloud Computing",
+        "course_img": "https://i.ibb.co/VWC95wy/Rectangle-3-1.png",
+        "price": 30000,
+        "course_duration": 12,
+        "short_description": "Dive deep into artificial intelligence and machine learning in 12 weeks. Develop AI models and tackle real-world challenges."
+    },
+    {
+        "id": 23675,
+        "title": "Database (MySQL)",
+        "course_img": "https://i.ibb.co/Vx3V6Ss/Rectangle-2-1.png",
+        "price": 20000,
+        "course_duration": 8,
+        "short_description": "Harness data for informed business decisions in 8 weeks. Learn analytics tools, data visualization, and predictive analytics."
+    },
+    {
+        "id": 234829,
+        "title": "Problem-Solving Part",
+        "course_img": "https://i.ibb.co/GxSz05D/Rectangle-2-6.png",
+        "price": 15000,
+        "course_duration": 6,
+        "short_description": "Capture stunning photos like a pro with our 6-week photography essentials course. Master composition, lighting, and editing."
+    }
+]
+
+
