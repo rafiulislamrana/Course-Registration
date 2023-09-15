@@ -1,25 +1,30 @@
+import PropTypes from 'prop-types'
+import SingleCourse from "../Single-Course/SingleCourse";
 import { useEffect } from "react";
 import { useState } from "react";
-import SingleCourse from "../Single-Course/SingleCourse";
-const Courses = () => {
 
+const Courses = (props) => {
     const [courses, setCourses] = useState([])
 
     useEffect(() => {
-        fetch("../../../public/course-details.json")
+        fetch("../public/course-details.json")
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+    const {addList} = props;
 
     return (
-        <div className="w-auto">
-            <div className="flex flex-wrap gap-6">
-                {
-                    courses.map(course => <SingleCourse key={course.id} course={course}></SingleCourse>)
-                }
-            </div>
+        <div className="flex flex-wrap gap-4 w-[77%]">
+            {
+                courses.map(course => <SingleCourse key={course.id} addList={addList} course={course}></SingleCourse>)
+            }
         </div>
     );
 };
+
+Courses.prototype = {
+    courses: PropTypes.array,
+    addList: PropTypes.func
+}
 
 export default Courses;
