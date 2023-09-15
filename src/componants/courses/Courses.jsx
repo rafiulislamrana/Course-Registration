@@ -5,18 +5,19 @@ const Courses = () => {
 
     const [courses, setCourses] = useState([])
 
-    useEffect( () => {
+    useEffect(() => {
         fetch("../../../public/course-details.json")
-        .then(res => res.json())
-        .then(data => setCourses(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
 
     return (
-        <div>
-            <h2>Course Container: {courses.length}</h2>
-            {
-                courses.map(course => <SingleCourse key={course.id} course={course}></SingleCourse>)
-            }
+        <div className="w-auto">
+            <div className="flex flex-wrap gap-6">
+                {
+                    courses.map(course => <SingleCourse key={course.id} course={course}></SingleCourse>)
+                }
+            </div>
         </div>
     );
 };

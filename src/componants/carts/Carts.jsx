@@ -1,7 +1,7 @@
 const Carts = () => {
     return (
-        <div>
-            Cart
+        <div className="w-[312px]">
+           Credit Hour Remaining 7 hr
         </div>
     );
 };
