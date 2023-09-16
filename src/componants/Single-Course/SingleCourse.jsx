@@ -22,7 +22,8 @@ const SingleCourse = (props) => {
                 </div>
             </div>
             <div className="flex">
-                    <button onClick={() => addList(course.title, course.course_duration)} className="bg-[#2F80ED] flex-1 text-white py-2 rounded-lg mt-2">Select</button>
+                    {/* <button onClick={() => addList(course.title, course.course_duration, course.id)} className="bg-[#2F80ED] flex-1 text-white py-2 rounded-lg mt-2">Select</button> */}
+                    <button onClick={() => addList(course)} className="bg-[#2F80ED] flex-1 text-white py-2 rounded-lg mt-2">Select</button>
             </div>
             
         </div>

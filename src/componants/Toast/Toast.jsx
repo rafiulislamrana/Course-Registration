@@ -5,10 +5,12 @@ const Toast = () => {
     // const alrt = () => {
     //     alert("You can add more than 20 credit")
     // }
-    const notify = () => toast("Wow so easy!");
+    // const notify = () => toast("You can add more than 20 credit");
     return (
         <div>
-            
+            {/* <button onClick={notify}>Notify!</button> */}
+            {toast("You cant add more than 20 credit")}
+            <ToastContainer />
         </div>
     );
 };
