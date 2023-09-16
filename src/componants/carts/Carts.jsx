@@ -1,8 +1,5 @@
 import Cartlist from "../Cartlist/Cartlist";
 import PropTypes from 'prop-types'
-import { ToastContainer} from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 
 const Carts = (props) => {
     // eslint-disable-next-line react/prop-types
@@ -20,7 +17,6 @@ const Carts = (props) => {
                 <hr />
                 <p>Total Credit Hour: {sum}</p>
                 <hr />
-                <ToastContainer />
             </div>
         </div>
     );

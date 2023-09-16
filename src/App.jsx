@@ -2,7 +2,7 @@ import './App.css'
 import Courses from './componants/courses/courses'
 import Carts from './componants/carts/carts'
 import { useState } from "react";
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
@@ -56,6 +56,7 @@ function App() {
         <Courses addList={addList}></Courses>
         <Carts lists={filterFilerUpdate} sum={sum} max={max}></Carts>
       </div>
+      <ToastContainer />
     </>
   )
 }
