@@ -11,6 +11,7 @@ const Courses = (props) => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+    // eslint-disable-next-line react/prop-types
     const {addList} = props;
 
     return (

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 const SingleCourse = (props) => {
+    // eslint-disable-next-line react/prop-types
     const {course, addList} = props;
     return (
         <div className="w-[312px] bg-white p-4 rounded-xl flex flex-col gap-4">

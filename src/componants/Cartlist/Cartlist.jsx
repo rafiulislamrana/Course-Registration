@@ -1,10 +1,6 @@
 const Cartlist = (props) => {
     // eslint-disable-next-line react/prop-types
     const {list, lists} = props
-    // console.log(list)
-    // eslint-disable-next-line react/prop-types
-    // const {list, filterList} = props
-    // console.log(list, filterList)
     // eslint-disable-next-line react/prop-types
     let index = lists.indexOf(list)
     return (

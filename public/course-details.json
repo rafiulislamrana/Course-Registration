@@ -5,7 +5,7 @@
         "course_img": "https://i.ibb.co/56HXRP2/Rectangle-2-2.png",
         "price": 15000,
         "course_duration": 8,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "The fundamentals of programming with 'Introduction to C Programming.' Master the basics of C language in this comprehensive course."
     },
     {
         "id": 2335,
@@ -13,7 +13,7 @@
         "course_img": "https://i.ibb.co/hymG5G0/Rectangle-2-3.png",
         "price": 13000,
         "course_duration": 6,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Algorithmic problem-solving in 'Introduction to Algorithms.' Learn foundational concepts for efficient coding and computational thinking."
     },
     {
         "id": 28429,
@@ -21,7 +21,7 @@
         "course_img": "https://i.ibb.co/SQNHB0F/Rectangle-2-4.png",
         "price": 25000,
         "course_duration": 10,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Start your journey into data structures and algorithms with 'Introduction to C++ for DSA.' Learn essential coding skills."
     },
     {
         "id": 792,
@@ -29,7 +29,7 @@
         "course_img": "https://i.ibb.co/Z2MGNLX/Rectangle-3.png",
         "price": 18000,
         "course_duration": 7,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Build a solid foundation in computer science with 'Basic Data Structures.' Learn essential structures for efficient programming."
     },
     {
         "id": 76249,
@@ -37,7 +37,7 @@
         "course_img": "https://i.ibb.co/SnRmk7p/Rectangle-2.png",
         "price": 13000,
         "course_duration": 5,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Unlock OOP's power with 'Introduction to OOP Python.' Learn Python's OOP principles for versatile and efficient coding."
     },
     {
         "id": 7324,
@@ -45,7 +45,7 @@
         "course_img": "https://i.ibb.co/PYFvWBS/Rectangle-2-5.png",
         "price": 22000,
         "course_duration": 9,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Explore Software Engineering: Principles, methodologies, and practices for building efficient and reliable software systems."
     },
     {
         "id": 214789,
@@ -53,7 +53,7 @@
         "course_img": "https://i.ibb.co/VWC95wy/Rectangle-3-1.png",
         "price": 30000,
         "course_duration": 12,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Master AWS and cloud computing: Scale, secure, and innovate with the leading cloud platform, Amazon Web Services."
     },
     {
         "id": 23675,
@@ -61,7 +61,7 @@
         "course_img": "https://i.ibb.co/Vx3V6Ss/Rectangle-2-1.png",
         "price": 20000,
         "course_duration": 8,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Master MySQL database management: Learn to design, query, and optimize databases for efficient data storage and retrieval."
     },
     {
         "id": 234829,
@@ -69,7 +69,7 @@
         "course_img": "https://i.ibb.co/GxSz05D/Rectangle-2-6.png",
         "price": 15000,
         "course_duration": 6,
-        "short_description": "Learn the essential basics of web development in just 8 weeks. Dive into HTML, CSS, and JavaScript to build your own websites."
+        "short_description": "Enhance your problem-solving skills: Dive into real-world challenges and develop effective strategies for tackling complex issues"
     }
 ]
 
