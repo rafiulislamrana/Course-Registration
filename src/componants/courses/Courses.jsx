@@ -7,7 +7,7 @@ const Courses = (props) => {
     const [courses, setCourses] = useState([])
 
     useEffect(() => {
-        fetch("../public/course-details.json")
+        fetch("course-details.json")
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])

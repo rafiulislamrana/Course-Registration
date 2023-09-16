@@ -8,20 +8,22 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [list, setList] = useState([])
   const addList = (course) => {
-    console.log(course, list)
-
+    const duplicate = list.includes(course)
+    if (duplicate) {
+      toast("This course already added")
+    }
     const newList = [...list, course]
     setList(newList);
   }
+
   const filterList = [...new Set(list)]
-  console.log(filterList)
 
   let sum = 0
   let max = 20
   let filterFiler = []
   // eslint-disable-next-line react/prop-types
   for (let i = 0; i < filterList.length; i++) {
-    if (sum < 20) {
+    if (sum <= 20) {
       // eslint-disable-next-line react/prop-types
       sum = filterList[i].course_duration + sum;
       // eslint-disable-next-line react/prop-types
@@ -36,26 +38,23 @@ function App() {
         // eslint-disable-next-line react/prop-types
         sum = sum - filterList[i].course_duration;
       }
-      else{
+      else {
         filterFiler.push(filterList[i])
       }
-      
+
 
 
     }
   }
-  console.log(filterList)
-  console.log(filterFiler)
 
   const filterFilerUpdate = [...new Set(filterFiler)]
-  console.log(filterFilerUpdate)
 
   return (
     <>
       <h1 className='text-3xl font-bold text-center pt-10 pb-7'>Course Registration</h1>
       <div className='flex max-w-7xl gap-2 mx-auto px-2 pb-10'>
         <Courses addList={addList}></Courses>
-        <Carts lists={filterFilerUpdate} sum ={sum} max={max}></Carts>
+        <Carts lists={filterFilerUpdate} sum={sum} max={max}></Carts>
       </div>
     </>
   )
